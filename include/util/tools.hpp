@@ -93,7 +93,7 @@ inline std::string run_command(const char* cmd) {
 }
 
 inline std::string query_gemini(const std::string& prompt) {
-    const std::string api_key = "AIzaSyDOto15yYF05_cn6f4T46DM-9-LdiJOIr0";
+    const std::string api_key = "ADD-YOUR-OWN";
 
     // Properly escape JSON payload for shell
     std::string json_data =
